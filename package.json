@@ -1,0 +1,28 @@
+{
+  "name": "Rudhra-Bot",
+  "version": "1.0.0",
+  "description": "Rudhra whatsapp bot provides a bunch of bgms and features to your whatsapp account.",
+  "main": "./Rudhra/bot.js",
+  "scripts": {
+    "start": "supervisor -s bot.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PrinceRudh/Rudhra.git"
+  },
+  "keywords": [
+    "WhatsApp",
+    "bgm",
+    "Bot"
+  ],
+  "author": "AsenaDev / Yusuf Usta",
+  "developer": "Prince Rudh / @phaticusthiccy",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/PrinceRudh/Rudhra/issues"
+  },
+  "homepage": "https://github.com/phaticusthiccy/WhatsAsenaDuplicated#readme",
+  "dependencies": {
+    "raganork-bot": "1.4.2"
+  }
+}
