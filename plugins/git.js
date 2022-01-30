@@ -9,11 +9,11 @@ Asena.addCommand({pattern: 'git', fromMe: false, desc: "Gives github link of the
 
     var skl = await axios.get("https://i.imgur.com/6p3x1x6.jpeg", { responseType: 'arraybuffer' })
 
-    await message.sendMessage(Buffer(skl.data), MessageType.image, {mimetype: Mimetype.png, caption: `*Github* *(setup)* : *https://github.com/PrinceRudh/Prince-Rudh*
+    await message.sendMessage(Buffer(skl.data), MessageType.image, {mimetype: Mimetype.png, caption: `*Github* *(setup)* : *https://github.com/Prince-Rudh/Rudhra2.0*
 
-*Audio comnds* : *https://github.com/PrinceRudh/Prince-Rudh/tree/master/uploads*
+*Audio comnds* : *https://github.com/Prince-Rudh/Rudhra2.0/tree/master/uploads*
 
-*Sticker cmnds* : *https://github.com/PrinceRudh/Prince-Rudh/tree/master/uploads*
+*Sticker cmnds* : *https://github.com/Prince-Rudh/Rudhra2.0/tree/master/uploads*
 `}) 
 
 }));
