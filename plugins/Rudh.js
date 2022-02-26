@@ -31,7 +31,7 @@ Neotro.addCommand({pattern: 'help', fromMe: false, dontAddCommandList: true}, (a
        
        const button = {
         buttonText: '➡️ᴄʟɪᴄᴋ ʜᴇʀᴇ⬅️',
-        description: "𝗥𝗨𝗗𝗛𝗥𝗔 𝗕𝗢𝗧\n\n💬ʜᴇʟᴘ ᴍᴀssᴀɢᴇ 💬\n\n©ᴘʀɪɴᴄᴇ ʀᴜᴅʜ",
+        description: "𝗥𝗨𝗗𝗛𝗥𝗔 𝗕𝗢𝗧\n\n💬ʜᴇʟᴘ ᴍᴇꜱꜱᴀɢᴇ 💬\n\n©ᴘʀɪɴᴄᴇ ʀᴜᴅʜ",
         sections: sections,
         listType: 1
        }
