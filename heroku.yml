@@ -1,5 +1,0 @@
-build:
-  docker:
-      worker: /Rudhra/Dockerfile
-run:
-   worker: npm start
