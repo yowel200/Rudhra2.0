@@ -250,7 +250,7 @@ else if (Config.WORKTYPE == 'public') {
 
 Asena.addCommand({pattern: 'moretxt', fromMe: false, desc: 'more txtit commands'}, (async (message, match) => {
   
-  await message.sendMessage('\n\n\n🐼command : .break\n🦋desc : change your text to wall breaking image.\n\n🐼command : .phub\n🦋desc : change your text into pornhub logo.\n🏷️example : .phuh BOT;X.\n\n🐼command : .blood\n🦋desc : change your text frozen blood on a glass\n\n🐼command : .1917\n🦋desc : change your text to a 1917 model image\n\n🐼command : .avengers\n🦋desc : change your text to avangers logo\n🏷️example : .avengers its;BOT X.\n\n🐼command : .boxed\n🦋desc : change your text to 3d boxed design\n\n🐼command : .window\n🦋desc : write your text on a foggy window \n\n🐼command : .skywal\n🦋desc : random sky wallpaper with given text\n\n🐼command : .holo\n🦋desc : change your text to holo design\n\n🐼command : .drop\n🦋desc : change your text into rain water drop.n\n🐼command : .flame\n🦋desc : text with fire effect.\n\n🐼command : .vtext\n🦋desc : text to video.\n\n🐼command : .ptext\n🦋desc : text to video.\n\n🐼command : .colortext\n🦋desc : text to colorfull video\n\n🐼command : .cloud\n🦋desc : text on cloud\n\n🐼command : .2ninja\n🦋desc : random ninja logo with given name.');
+  await message.sendMessage('\n\n\n🐼command : .break\n🦋desc : change your text to wall breaking image.\n\n🐼command : .blood\n🦋desc : change your text frozen blood on a glass\n\n🐼command : .1917\n🦋desc : change your text to a 1917 model image\n\n🐼command : .avengers\n🦋desc : change your text to avangers logo\n🏷️example : .avengers its;BOT X.\n\n🐼command : .boxed\n🦋desc : change your text to 3d boxed design\n\n🐼command : .window\n🦋desc : write your text on a foggy window \n\n🐼command : .skywal\n🦋desc : random sky wallpaper with given text\n\n🐼command : .holo\n🦋desc : change your text to holo design\n\n🐼command : .drop\n🦋desc : change your text into rain water drop.n\n🐼command : .flame\n🦋desc : text with fire effect.\n\n🐼command : .vtext\n🦋desc : text to video.\n\n🐼command : .ptext\n🦋desc : text to video.\n\n🐼command : .colortext\n🦋desc : text to colorfull video\n\n🐼command : .cloud\n🦋desc : text on cloud\n\n🐼command : .2ninja\n🦋desc : random ninja logo with given name.');
   
 }));
 
@@ -278,22 +278,6 @@ if (match[1].includes(';')) {
 
   await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: Config.ALL })
 
-}));
-  
-  Asena.addCommand({pattern: 'phub ?(.*)', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
-
-    if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
-  
-  var topText, bottomText;
-    if (match[1].includes(';')) {
-        var split = match[1].split(';');
-        bottomText = split[1];
-        topText = split[0];
-}
-
-    var webimage = await axios.get(`https://api.xteam.xyz/textpro/ph?text=${topText}&text2=${bottomText}&APIKEY=65654c74a7169de8`, { responseType: 'arraybuffer' })
-
-   await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg , caption: Config.ALL})
 
     }));
   
