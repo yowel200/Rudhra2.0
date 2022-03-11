@@ -10,6 +10,6 @@ Asena.addCommand({ pattern: 'insta ?(.*)', fromMe: false, desc: "Downloads from 
     const { status, type, data } = await instagram(match[1], 'rudhra')
     if (!status) return await message.sendMessage('not found')
     await message.client.sendMessage(message.jid, LOAD_ING, MessageType.text, { quoted: message.data });
-    if (type === 'image') return await message.sendMessage(data, MessageType.image, { caption: "ᴍᴀᴅᴇ ʙʏ ᴘʀɪɴᴄᴇ ʀᴜᴅʜ", quoted: message.data })
-    if (type === 'video') return await message.sendMessage(data, MessageType.video, { caption: "ᴍᴀᴅᴇ ʙʏ ᴘʀɪɴᴄᴇ ʀᴜᴅʜ", quoted: message.data })
+    if (type === 'image') return await message.sendMessage(data, MessageType.image, { caption: "ʙʏ ᴛᴏxɪᴄ ᴀʟᴇxᴀ", quoted: message.data })
+    if (type === 'video') return await message.sendMessage(data, MessageType.video, { caption: "ʙʏ ᴛᴏxɪᴄ ᴀʟᴇxᴀ", quoted: message.data })
 });
