@@ -125,7 +125,7 @@
             "GOODBYE_DESC": "Sets the goodbye message. If you leave blank, it show's the goodbye message.",
             "NOT_SET_GOODBYE": "*You didn't set a goodbye message!*\n*To set:* ```.goodbye bye && bye#see ya \n to add member mention use {mention} \n to add  group description in welcome message use {gpdesc} \n to add group name use {gphead} \n to add group maker name use {gpmaker} \n to add bot name use {owner} \n to add exact indian time use {time} ```",
             "GOODBYE_ALREADY_SETTED": "*✅ Goodbye message has been set!*\n*Message:* ```",
-            "NEED_GOODBYE_TEXT": "*You must write a message to set up the goodbye message.*\n*Example:* ```.goodbye bye && bye#see ya```", 
+            "NEED_GOODBYE_TEXT": "*You must write a message to set up the goodbye message.*\n*Example:* ```.goodbye bye && bye#see you```", 
             "GOODBYE_DELETED": "*✅ Goodbye message has been deleted successfully!*",
             "GOODBYE_SETTED": "*✅ Goodbye message has been setted successfully!*"
         },
@@ -153,7 +153,7 @@
         },
         "profile": {
             "KICKME_DESC": "It kicks you from the group you are using it in.",
-            "KICKME": "```Bye bye! Rudhra ini varathilla 🥲```",
+            "KICKME": "```Bye bye!```",
             "PP_DESC": "Makes the profile photo what photo you reply.",
             "NEED_PHOTO": "*Give me a photo!*",
             "PPING": "```Setting profile photo...```",
@@ -194,22 +194,22 @@
             "ISONG_DESC": "Uploads the song you wrote for ios users.",
             "NEED_TEXT_SONG": "*Please write a song!*\n*Example:* ```.song eminem - rap god```",
             "NO_RESULT": "*I couldn't find anything :(*",
-            "DOWNLOADING_SONG": "✮⃝🎸ƦUÐҤƦλ ÐØ₩₦ŁØÐł₦G ¥ØUƦ $Ø₦G✮⃝🎧",
+            "DOWNLOADING_SONG": "✮⃝🎸ᴅᴏᴡɴʟᴏᴀᴅɪɴɢ sᴏɴɢ✮⃝🎧",
             "NAMEY": "NAME",
             "URL": "LINK",
             "THUMB": "THUMB",
             "RATING": "RATING",
-            "UPLOADING_SONG": "✮⃝🎸ƦUÐҤƦλ UPŁØλÐł₦G ¥ØUƦ $Ø₦G✮⃝🎧",
+            "UPLOADING_SONG": "✮⃝🎸ᴜᴘʟᴏᴀᴅɪɴɢ sᴏɴɢ✮⃝🎧",
             "VIDEO_DESC": "Downloads video from YouTube.",
             "NEED_VIDEO": "*Please write a video link!*\n*Example:* ```.video https://youtube.com/watch?v=HD1-MX9q6fY```",
-            "DOWNLOADING_VIDEO": "*✮⃝🎞️rυdнra downloadιng yoυr vιdeo✮⃝🎥*",
-            "UPLOADING_VIDEO": "*✮⃝🎞️rυdнra υploadιng yoυr vιdeo✮⃝🎥*",
+            "DOWNLOADING_VIDEO": "*✮⃝🎞️ᴅᴏᴡɴʟᴏᴀᴅɪɴɢ ᴠɪᴅᴇᴏ✮⃝🎥*",
+            "UPLOADING_VIDEO": "*✮⃝🎞️ᴅᴏᴡɴʟᴏᴀᴅɪɴɢ ᴠɪᴅᴇᴏ✮⃝🎥*",
             "LOADING": "*✮⃝🎞️rυdнra downloadιng yoυr vιdeo✮⃝🎥*",
             "YT_DESC": "It searchs on YouTube.",
             "NEED_WORDS": "```Please write a few words!```",
             "GETTING_VIDEOS": "```I'm bringing videos...```",
             "NOT_FOUND": "*I couldn't find anything :(*",
-            "SEARCHING": "*rυdнra 🔎 ѕearcнιng...*",
+            "SEARCHING": "*🔎 Searching...*",
             "WIKI_DESC": "Searches query on Wikipedia.",
             "IMG_DESC": "Searches for related pics on Google.",
             "IMG": "Uploading photo ```{}``` number ```{} ```..."
@@ -217,7 +217,7 @@
         "sticker": {
             "STICKER_DESC": "It converts your replied photo or video to sticker.",
             "NEED_REPLY": "*Reply to a photo or video!*",
-            "DOWNLOADING": "```Wait cheyy ippo taram✔️```"
+            "DOWNLOADING": "```Wait cheyy ippo tharam✔️```"
         },
         "system_stats": {
             "ALIVE_DESC": "Does bot work?",
@@ -239,14 +239,14 @@
         },
         "updater": {
             "UPDATER_DESC": "Checks the update.",
-            "UPDATE": "*ƦUÐҤƦλ ł$ ₡ØMPŁE₸EŁ¥ UP-₸Ø-Ðλ₸E!*",
-            "NEW_UPDATE": "*₦E₩ UPÐλ₸E λVλłŁλBŁE ₣ØƦ ƦUÐҤƦλ!*\n\n*To update Bot give this command: .update now*\n\n*Supporting Group Join First: https://chat.whatsapp.com/HVpTaTICeUi2G7hPlUlGUP*\n\n*https://youtube.com/c/PrinceRudh*\n\nChanges:\n```",
+            "UPDATE": "*ᴛᴏxɪᴄ ᴀʟᴇxᴀ ɪs ᴄᴏᴍᴘʟᴇᴛᴇʟʏ ᴜᴘ ᴛᴏ ᴅᴀᴛᴇ!*",
+            "NEW_UPDATE": "*ɴᴇᴡ ᴜᴘᴅᴀᴛᴇ ᴀᴠᴀɪʟᴀʙʟᴇ ғᴏʀ ᴛᴏxɪᴄ ᴀʟᴇxᴀ!*\n\n*To update Bot give this command: .update now*```",
             "UPDATE_NOW_DESC": "It makes updates.",
-            "UPDATING": "```ƦUÐҤƦλ UPÐλ₸E ₡ҤE¥¥λ₸₸E...⏳```",
+            "UPDATING": "```ᴛᴏxɪᴄ ᴀʟᴇxᴀ ᴜᴘᴅᴀᴛɪɴɢ...⏳```",
             "INVALID_HEROKU": "*❌ Your Heroku app name or api key wrong!*",
-            "UPDATED": "*ƦUÐҤƦλ UPÐλ₸E ƙλZҤł₦JU ✅*",
-            "UPDATED_LOCAL": "*✅ƦUÐҤƦλ UPÐλ₸EÐ!*",
-            "AFTER_UPDATE": "*ƦUÐҤƦλ ƦE$₸λƦ₸ł₦G*",
+            "UPDATED": "*ᴜᴘᴅᴀᴛᴇ ᴋᴀʏɪɴᴊᴜ ᴍᴡᴏɴᴜ ✅*",
+            "UPDATED_LOCAL": "*✅ᴛᴏxɪᴄ ᴀʟᴇxᴀ ᴜᴘᴅᴀᴛᴇᴅ!*",
+            "AFTER_UPDATE": "*ᴛᴏxɪᴄ ᴀʟᴇxᴀ ʀᴇsᴛᴀʀᴛɪɴɢ*",
             "IN_AF": "*Please check* ```HEROKU_APP_NAME``` *and* ```app name``` *They must be same.*\n*If these two values ​​are the same, please restore* ```HEROKU_API_KEY```\n\n_To access these settings, use Heroku >> App >> Settings >> Reavel Config Vars_\n_To renew your API key, follow these steps, Heroku >> Account >> API Key then replace old api key in config vars._"
         },
         "whois": {
@@ -270,7 +270,7 @@
         },
         "weather": {
             "WEATHER_DESC": "Shows the weather.",
-            "NEED_LOCATION": "* Please write a location!*\n*Example:* ```.weather Bakü```",
+            "NEED_LOCATION": "* Please write a location!*\n*Example:* ```.weather place```",
             "LOCATION": "Location",
             "HMOD": "Finds mod apps from happymod",
             "QUOTE_DESC": "It shares famous quotes",
@@ -303,14 +303,14 @@
             "URL": "Shorten the long link."
         },
         "conventer": {
-            "MP4TOAUDİO_DESC": "Rudhra Converts video to sound.",
+            "MP4TOAUDİO_DESC": "Converts video to sound.",
             "MP4TOAUDİO_NEEDREPLY": "*You Must Reply to a Video!*",
-            "MP4TOAUDİO": "```Rυԃԋɾα Cσɳʋҽɾƚιɳɠ Vιԃҽσ ƚσ Aυԃισ..```",
+            "MP4TOAUDİO": "```Converting video to Audio..```",
             "ANİM_STİCK": "Converts animated stickers to video.",
             "ANİMATE": "```Converting Animated Sticker To Video..```",
             "STİCKER_DESC": "Converts the sticker to a photo.",
             "STİCKER_NEEDREPLY": "*You Must Reply to a sticker!*",
-            "STİCKER": "```ʀᴜᴅʜʀᴀ ᴄᴏɴᴠᴇʀᴛɪɴɢ ᴛʜᴇ sᴛɪᴄᴋᴇʀ ᴛᴏ ᴀ ᴘʜᴏᴛᴏ..```",
+            "STİCKER": "```ᴄᴏɴᴠᴇʀᴛɪɴɢ sᴛɪᴄᴋᴇʀ ᴛᴏ ᴘʜᴏᴛᴏ..```",
             "XMEDİA_DESC": "It is a plugin with more than 25 media tools.",
             "T_FALSE": "```❌ Incorrect Blend Effect Entered!```\n```🔎 Existing Commands:```\n\n*$dodge* - Applies a pink color filter to the video.\n*$multiply* - Applies a green color filter to the video.\n*$grainmerge* - Increases the contrast of the video.\n*$and* - Applies black lightning effect according to the speed of the video.\n*$or* - Applies a white lightning effect according to the speed of the video.\n*$burn* - Applies green contrast to video.\n*$difference* - Shows the differences by applying green relief to the video.\n*$grainextract* - Shows the differences by applying gray relief to the video.\n*$divide* - Demonstrates the differences by applying a pink relief to the video.\n*$xor* - Applies both green relief and lightning effect to video.\n*$hardmix* - Mixes the colors of the video into a yellow and red tone.\n*$negation* - Turns the dynamics of the video to pink.",
             "T_NOT": "```💭 You Need To Enter Any Blend Effects!\n```🔎 Existing Commands:```\n\n*$dodge* - Applies a pink color filter to the video.\n*$multiply* - Applies a green color filter to the video.\n*$grainmerge* - Increases the contrast of the video.\n*$and* - Applies black lightning effect according to the speed of the video.\n*$or* - Applies a white lightning effect according to the speed of the video.\n*$burn* - Applies green contrast to video.\n*$difference* - Shows the differences by applying green relief to the video.\n*$grainextract* - Shows the differences by applying gray relief to the video.\n*$divide* - Demonstrates the differences by applying a pink relief to the video.\n*$xor* - Applies both green relief and lightning effect to video.\n*$hardmix* - Mixes the colors of the video into a yellow and red tone.\n*$negation* - Turns the dynamics of the video to pink.",
@@ -399,9 +399,9 @@
             "MUTE_OPEN": "```The group chat has unmuted!```"
         },
         "unvoice": {
-            "UV_DESC": "Rudhra Converts audio to sound recording.",
+            "UV_DESC": "Converts audio to sound recording.",
             "UV_REPLY": "*You Must Reply to the Audio File!*",
-            "UV_PROC": "```Rudhra Converting to Sound Recording..```"
+            "UV_PROC": "```Converting to Sound Recording..```"
         },
         "ffmpeg": {
             "FF_DESC": "Applies the desired ffmpeg filter to the video.\n⌨️ Example: .ffmpeg fade=in:0:30",
@@ -485,7 +485,7 @@
             "NOT_FOUND":"User not found: "
         },
         "github": {
-            "GİTHUB_DESC": "Collects github information from the given username.\n⌨️ Example: .github PrinceRudh",
+            "GİTHUB_DESC": "Collects github information from the given username.\n⌨️ Example: .github Alinshan",
             "REPLY": "```You Need To Type Any Username!```",
             "NOT": "```User not found!```",
             "FOLLOWERS": "Followers:",
