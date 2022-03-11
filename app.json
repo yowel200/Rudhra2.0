@@ -79,7 +79,7 @@
             "required": true,
             "value": "false"
         },
-        "RUDHRA_AI": {
+        "ALEXA_AI": {
             "description": "turn on chat back auto reply Toxic Alexa (use true to on and fale to off)",
             "required": true,
             "value": "false"
