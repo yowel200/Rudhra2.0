@@ -244,21 +244,21 @@ if (conf.LANG == 'TR') {
 }
 if (conf.LANG == 'EN') {
     fulleva_dsc = 'Activates full functional Rudhra features. Turn your account into a ai chatbot!'
-    already_on = 'Rudhra artificial intelligence is already fully functional.'
-    already_off = 'Rudhra artificial intelligence is currently running semi-functional.'
-    succ_on = 'Rudhra Opened Fully Functionally! Please wait a bit! ✅'
-    succ_off = 'Rudhra Set to Semi-Functional! Please wait a bit! ☑️'
+    already_on = 'Toxic Alexa artificial intelligence is already fully functional.'
+    already_off = 'Toxic Alexa artificial intelligence is currently running semi-functional.'
+    succ_on = 'Toxic Alexa Opened Fully Functionally! Please wait a bit! ✅'
+    succ_off = 'Toxic Alexa Set to Semi-Functional! Please wait a bit! ☑️'
 }
 if (conf.LANG == 'ML') {
     fulleva_dsc = 'പൂർണ്ണമായും പ്രവർത്തനക്ഷമമായ Rudhra സവിശേഷതകൾ സജീവമാക്കുന്നു. നിങ്ങളുടെ അക്കൗണ്ട് ഒരു ചാറ്റ്ബോട്ടാക്കി മാറ്റുക!'
-    already_on = 'Rudhra കൃത്രിമബുദ്ധി ഇതിനകം പൂർണ്ണമായി പ്രവർത്തിക്കുന്നു.'
-    already_off = 'Rudhra നിലവിൽ സെമി-ഫംഗ്ഷണൽ ആണ്.'
-    succ_on = 'Rudhra പൂർണ്ണമായും പ്രവർത്തനക്ഷമമായി തുറന്നു! കുറച്ച് കാത്തിരിക്കൂ! ✅'
-    succ_off = 'സെമി-ഫങ്ഷണൽ ആയി Rudhra സജ്ജമാക്കുക! കുറച്ച് കാത്തിരിക്കൂ! ☑️'
+    already_on = 'Toxic Alexa കൃത്രിമബുദ്ധി ഇതിനകം പൂർണ്ണമായി പ്രവർത്തിക്കുന്നു.'
+    already_off = 'Toxic Alexa നിലവിൽ സെമി-ഫംഗ്ഷണൽ ആണ്.'
+    succ_on = 'Toxic Alexa പൂർണ്ണമായും പ്രവർത്തനക്ഷമമായി തുറന്നു! കുറച്ച് കാത്തിരിക്കൂ! ✅'
+    succ_off = 'സെമി-ഫങ്ഷണൽ ആയി Toxic Alexa സജ്ജമാക്കുക! കുറച്ച് കാത്തിരിക്കൂ! ☑️'
 }
 
 Prince.addCommand({ pattern: 'chatbot ?(.*)', desc: fulleva_dsc, fromMe: true,dontAddCommandList: true, usage: '.chatbot on / off' }, (async (message, match) => {
-    var pinky_status = `${conf.RUDHRA_AI}`
+    var pinky_status = `${conf.ALEXA_AI}`
     if (match[1] == 'on') {
         if (pinky_status == 'true') {
             return await message.client.sendMessage(message.jid, '*' + already_on + '*', MessageType.text)
@@ -266,7 +266,7 @@ Prince.addCommand({ pattern: 'chatbot ?(.*)', desc: fulleva_dsc, fromMe: true,do
         else {
             await heroku.patch(baseURI + '/config-vars', { 
                 body: { 
-                    ['RUDHRA_AI']: 'true'
+                    ['ALEXA_AI']: 'true'
                 } 
             });
             await message.client.sendMessage(message.jid, '*' + succ_on + '*', MessageType.text)
@@ -279,7 +279,7 @@ Prince.addCommand({ pattern: 'chatbot ?(.*)', desc: fulleva_dsc, fromMe: true,do
         else {
             await heroku.patch(baseURI + '/config-vars', { 
                 body: { 
-                    ['RUDHRA_AI']: 'false'
+                    ['ALEXA_AI']: 'false'
                 } 
             });
             await message.client.sendMessage(message.jid, '*' + succ_off + '*', MessageType.text)
