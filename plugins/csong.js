@@ -28,15 +28,15 @@ r_text[18] = "enikk njan und Princerudh uyir";
 r_text[19] = "\n eda sathyam para nee ente fan alle..\n ";
 r_text[20] = "The coefficient's of linear expansions is the position of Haemoglobin in the atmosphere. But Why? Full Many gem of purests serene lay underneath the unfathomed ocean's unblossomeds ! But why? But why";
 r_text[21] = "Kochi pazhaya kochiyellennariyam… pakshe Princerudh pazhaya Princerudh thanneya...😎\n\n";
-r_text[22] = "Kaanaan oru look illanney ullu… bhayankara budhiya\n\n ninnak allatto enik Rudhra";
-r_text[23] = "Ithalla ithinapparam chaadi kadannavananee K.K. Rudhra";
+r_text[22] = "Kaanaan oru look illanney ullu… bhayankara budhiya\n\n ninnak allatto enik";
+r_text[23] = "Ithalla ithinapparam chaadi kadannavananee K.K. Josep";
 r_text[24] = "\nVarrierey… Enthado njan inganey aayi poyathu\n";
 r_text[25] = "\nPempillerey roattikoodey nadakkaan nee sammathikkilla, alley?... Da, neeyaanee alavaladi Shaji alley\n";
 r_text[26] = "\nAthu enne uddheshichanu… enne thanney uddheshichanu… enne maatram uddheshichanu\n";
 r_text[27] = "\nBeedi undo saghave, oru theepetti edukkan\n";
 r_text[28] = "\nIppo sheriyakithara… ippo sheriyakithara…\n";
 r_text[29] = "\nEnne kollathirikkan pattuo? illa alley?\n";
-r_text[30] = "motivate cheyaan aarkum kayyum ath cheyth kaanikkaaana paad.\n       -PrinceRudh";
+r_text[30] = "motivate cheyaan aarkum kayyum ath cheyth kaanikkaaana paad.\n       -Toxic Alexa";
 r_text[31] = "My phone number is 2255"; 
 r_text[32] = "Pani varunund Avaracha";
 r_text[33] = "Njan Puliyanu Ketta";
@@ -50,7 +50,7 @@ r_text[40] = "Vazhkai Oru Vattam. Inga Jeikkaravan Thopan, Thokaravan Jeipaan";
 r_text[41] = "Twinkle Twinkle Little Star";
 r_text[42] = "Evulavo Panittom, Edha Panamattoma";
 r_text[43] = "Ende ponne ninakke vere song onnume kittiyille🥲";
-r_text[43] = "velich edukaruth keto";
+r_text[43] = "velachil edukkaruth ketto";
 var i = Math.floor(44*Math.random())
 
 await message.sendMessage(r_text[i]);
