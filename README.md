@@ -72,7 +72,7 @@ $ node qr.js
    // scan the qr using whatsapp web on your phone
 $ node bot.js
 ```
-
+<div align="center">
 
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=Alinshan&repo=Toxic-Alexa&theme=nightowl)](https://github.com/Alinshan/Toxic-Alexa)
   </div>
