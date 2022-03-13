@@ -84,7 +84,7 @@ $ node bot.js
   [![ERR0R-x-PREDAT0R](https://github.com/Alinshan.png?size=275)](https://github.com/Alinshan) |  [![PRINCE-RUDH](https://github.com/prince-rudh.png?size=275)](https://github.com/prince-rudh) |
 ----|----|
 [ALINSHAN](https://github.com/Alinshan)  |  [PRINCE-RUDH](https://github.com/prince-rudh)  |
-Base, Bug Fixes, Modules  | Base, Bug Fixes, Modules  |
+Base, Bug Fixes, Modules  |Base, Bug Fixes, Modules  |
   </div>
     
 ----------
